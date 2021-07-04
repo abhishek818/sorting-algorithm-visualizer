@@ -1,0 +1,211 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+img
+{
+  vertical-align: 50px;
+  width: 245px;
+  height: 300px;
+}
+
+#arraySize
+{
+  color:darkorange;
+}
+
+#array
+{
+  padding: 1%;
+  background-color: bisque;
+}
+
+#array2
+{
+  padding: 2%;
+  background-color:coral;
+  word-wrap: break-word;
+}
+/* 
+input[type='range'] 
+{
+      /* overflow: hidden;
+      width: 80px; */
+      /* -webkit-appearance: none; */
+      /* background-color: #9a905d; */
+/* } */
+
+nav 
+{
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+background: #2b5876;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 60%;
+      grid-template-columns: 30% 60%;
+  -webkit-column-gap: 10%;
+          column-gap: 10%;
+  padding: 0% 5%;
+  border-bottom: 1px solid #000000;
+}
+
+nav .array-inputs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
+  place-content: center;
+  padding: 5% 0%;
+}
+
+nav .array-inputs #a_size {
+  padding: 5% 0%;
+}
+
+nav .array-inputs #a_speed {
+  padding: 5% 0%;
+}
+
+nav .array-inputs #a_generate, #revert {
+  margin-top: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color:aquamarine;
+  padding: 4% 0% 0% 0%;
+  padding-left: 20%;
+  font-size: large;
+}
+
+nav .array-inputs #a_generate:hover {
+  cursor: pointer;
+  color:deeppink;
+}
+
+nav .array-inputs #revert:hover {
+  cursor: pointer;
+  color:pink;
+}
+
+nav .header_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+nav .header_right .nav-heading {
+  display: inline-block;
+  font-size: xxx-large;
+  padding: 3% 0%;
+  color: cyan;
+}
+
+nav .header_right .algos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (16.66667%)[6];
+      grid-template-columns: repeat(6, 16.66667%);
+  place-content: center;
+  padding: 2% 0%;
+}
+
+nav .header_right .algos button {
+  background-color: transparent;
+  border: none;
+  color:lime;
+  outline: none;
+  padding: 5% 0%;
+  font-size: x-large;
+}
+
+nav .header_right .algos button:hover {
+  background-color:navajowhite;
+  color: red;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_selected {
+  background-color: white;
+  color: green;
+}
+
+nav .header_right .algos .butt_selected:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_unselected:hover {
+  background-color:navajowhite;
+  color: red;
+  cursor: pointer;
+}
+
+section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 60% 20%;
+      grid-template-columns: 20% 60% 20%;
+}
+
+section #Info_Cont1 {
+  padding: 5%;
+  background-color: deeppink;
+}
+
+section #array_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  background-color: lightblue;
+ border-left: 1px solid #000000;
+}
+
+section #Info_Cont2 {
+  padding: 10%;
+  background-color:rgb(198, 209, 219);
+  border-left: 1px solid #000000;
+}
+
+.hide {
+  display: none;
+}
+
+/*
+@media (max-width: 480px)//Mobiles
+{
+    
+}
+
+@media (min-width: 481px) and (max-width: 1250px)//Tablets
+{
+
+}
+
+@media (min-width: 1251px)//Laptops and up
+{
+
+}
+*/
